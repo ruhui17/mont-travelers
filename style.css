@@ -38,7 +38,7 @@ header>.container{
     
 }
 
-header .header-nav-a>ul>li{
+header .nav-a>ul>li{
     position:relative;
     display: list-item;
     text-align: justify;
@@ -53,7 +53,7 @@ header .header-nav-a>ul>li{
     
 }
 
-header .header-nav-a>ul>li>a{
+header .nav-a>ul>li>a{
     vertical-align: inherit;
     text-decoration: none;
     color: rgb(68, 56, 44);
@@ -74,7 +74,7 @@ header .header-nav-a>ul>li>a{
     transition: translate(0,-50%);
     
 } */
-.header-nav-b{
+.nav-b{
     display: flex;
     justify-content: flex-end;
     order: -1;
@@ -105,7 +105,7 @@ a{
     align-items: center;
     justify-content: center;
 }
-header .header-nav-b>ul>li{
+header .nav-b>ul>li{
     position:relative;
     display: list-item;
     text-align: justify;
