@@ -62,7 +62,7 @@ header .header-nav-a>ul>li>a{
     font-weight: 510;
     
 }
-nav>ul>li>::after{
+/* nav>ul>li>::after{
     content: attr(data-tittle) " ";
     display: block;
     position: absolute;
@@ -73,7 +73,7 @@ nav>ul>li>::after{
     font-weight: bold;
     transition: translate(0,-50%);
     
-}
+} */
 .header-nav-b{
     display: flex;
     justify-content: flex-end;
