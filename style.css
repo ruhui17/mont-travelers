@@ -48,12 +48,13 @@ header .nav-a>ul>li{
     padding-top: 12px;
     padding-right: 20px;
     padding-bottom: 5px;
+    margin-left: 10px;
     box-sizing: border-box;
     border-radius: 5px;
     
 }
 
-header .nav-a>ul>li>a{
+header .nav-a>ul>li>.chinese{
     vertical-align: inherit;
     text-decoration: none;
     color: rgb(68, 56, 44);
@@ -62,6 +63,17 @@ header .nav-a>ul>li>a{
     font-weight: 510;
     
 }
+
+header .nav-a>ul>li>.english {
+    display: block;
+    position: absolute;
+    color: rgb(68, 56, 44); 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 510;
+    left: -25;
+    top: 0;
+  }
 /* nav>ul>li>::after{
     content: attr(data-tittle) " ";
     display: block;
@@ -111,6 +123,10 @@ header .nav-b>ul>li{
 .nav-b a{
     display: inline-block;
     margin-left: 10px;
+}
+.nav-b a>span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 .nav-b a:nth-child(4){
     margin-left: 40px; ;
