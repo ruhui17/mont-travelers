@@ -10,9 +10,12 @@ ul, li{
 
 
 header{
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: rgb(248, 246, 239);
 }
 header>.container{
@@ -138,9 +141,13 @@ header .nav-b>ul>li{
 
 }
 .banner-bg{
+    padding-top: 172px;
     background-color: rgb(248, 246, 239);
     height: 740px;
+    overflow: hidden;
 }
 .banner-img{
     margin-left: 8.33333333%;
+    width:90%;
+    float: right;
 }
