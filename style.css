@@ -64,15 +64,14 @@ header .nav-a>ul>li>.chinese{
     
 }
 
-header .nav-a>ul>li>.english {
-    display: block;
+header .nav-a>ul>li>.nav-tag{
     position: absolute;
-    color: rgb(68, 56, 44); 
+    color: rgb(37, 103, 76); 
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 510;
-    left: -25;
-    top: 0;
+    font-size: 14px;
+    font-weight: 510px;
+    left: 10px;
+    top: -8px;
   }
 /* nav>ul>li>::after{
     content: attr(data-tittle) " ";
