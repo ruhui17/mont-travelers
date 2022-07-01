@@ -357,7 +357,7 @@ button{
     position: absolute;
     /* margin-left: 50%; */
     display: block;
-    bottom: -10px;
+    bottom: 60x;
     left: 50%;
     transform: translateX(10px);
     
