@@ -275,9 +275,10 @@ button{
 .tittle1{
     display: block;
     border-left: 4px solid rgb(237, 187, 70);
+    margin-left: 25px;
     padding-left: 1rem;
     letter-spacing: 0.04em;
-    line-height: 1;
+    line-height: 20px;
     color: rgb(68, 57, 45);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -306,7 +307,7 @@ button{
     font-weight: 510;
 }
 .margin{
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .number>a{
     color: rgb(68, 57, 45);
@@ -325,6 +326,10 @@ button{
     /* margin-top: 135px; */
     padding-top: 133px;
 }
+/* 
+.inner-container-margin{
+    margin-top: 50px;
+} */
 
 .inner-container{
    display: flex;
@@ -334,6 +339,7 @@ button{
    /* background-color: rgb(90, 98, 209); */
    justify-content: space-between;
 }
+
 
 /* .son{
     
