@@ -271,6 +271,7 @@ button{
     margin-top: -1px;
     position: relative;
     background-repeat: no-repeat;
+    margin-bottom: 0;
 }
 .tittle1{
     display: block;
@@ -316,6 +317,17 @@ button{
     font-weight: 500;
 }
 .bg-picture1>.container-m{
+    /* position: absolute; */
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+    /* background-color: rgb(145, 18, 18); */
+    height: 1290.1px;
+    /* margin-left: 8.33333333%; */
+    /* margin-top: 135px; */
+    padding-top: 133px;
+}
+.bg-picture2>.container-m{
     /* position: absolute; */
     max-width: 1200px;
     width: 95%;
@@ -384,15 +396,20 @@ button{
 }
 
 .bg-picture2{
-    height: 1156px;
     width: 100%;
     background-image: url(images/bg2.png);
+    margin-top: -560px;
+    position: relative;
+    background-repeat: no-repeat;
 }
 .bg-picture2>div>a{
     display: block;
 }
 .footerBg{
+    display: block;
     height: 390px;
     width: 100%;
     background-image: url(images/footerBg.png);
+    margin-top: -130px;
+    
 }
