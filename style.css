@@ -334,7 +334,7 @@ button{
 .inner-container{
    display: flex;
    width: 1200px;
-   width: 95%;
+   width: 100%;
    /* flex-wrap: wrap; */
    /* background-color: rgb(90, 98, 209); */
    justify-content: space-between;
