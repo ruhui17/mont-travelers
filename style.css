@@ -17,6 +17,7 @@ header{
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgb(248, 246, 239);
+    z-index: 999;
 }
 header>.container{
     margin-right: 4.16666667%;
@@ -29,7 +30,6 @@ header>.container{
 .header-inner{
     align-items: center;
     justify-content: space-between;
-    /* gap: 20px;  */
     
 }
 .logo{
@@ -130,9 +130,10 @@ header .nav-b>ul>li{
 
 }
 .banner-bg{
+    position: relative;
     padding-top: 150px;
     background-color: rgb(248, 246, 239);
-    height: 650px;
+    /* height: 650px; */
     overflow: hidden;
     clear: both;
 
@@ -143,6 +144,11 @@ header .nav-b>ul>li{
     width:90%;
     float: right;
 
+}
+button{
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
 }
 .btn{
     display: inline-block;
@@ -259,7 +265,7 @@ section{
 
 /* 以下為行程區 */
 .bg-picture1{
-    height: 1290.1px;
+    /* height: 1290.1px; */
     width: 100%;
     background-image: url(images/bgImage1.png);
     margin-top: -1px;
@@ -308,18 +314,21 @@ section{
     font-weight: 500;
 }
 .bg-picture1>.container-m{
-    position: absolute;
-    /* width: 1200px; */
+    /* position: absolute; */
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
     /* background-color: rgb(145, 18, 18); */
-    height: 1290.1pxpx;
-    margin-left: 8.33333333%;
+    height: 1290.1px;
+    /* margin-left: 8.33333333%; */
     /* margin-top: 135px; */
-    margin-top: 133px;
+    padding-top: 133px;
 }
 
 .inner-container{
    display: flex;
    width: 1200px;
+   width: 95%;
    /* flex-wrap: wrap; */
    /* background-color: rgb(90, 98, 209); */
    justify-content: space-between;
@@ -330,10 +339,20 @@ section{
     /* background-color: rgb(68, 167, 139); */
     /* width: 280px; */
     
+.son{
+    width: 25%;
+    margin: 2%;
+}
+.son img{
+    width: 100%;
+}
 .number{
     position: absolute;
-    margin-left: 50%;
-    display: block
+    /* margin-left: 50%; */
+    display: block;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(10px);
     
 }
 .number>a{
@@ -342,8 +361,8 @@ section{
 }
 
 .img-container{
-    height: 279;
-    width: 280px;
+    /* height: 279; */
+    /* width: 280px; */
     border-radius:20px;
     background-color: rgb(255, 255, 255);
 }
