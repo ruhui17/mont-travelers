@@ -155,7 +155,7 @@ header .nav-b>ul>li{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color:rgb(68, 57, 45) ;
+    color: #fff ;
 
 }
 
@@ -163,12 +163,12 @@ section{
     display: block;
     position: relative;
     background-color: rgb(248, 246, 239);
-    padding: 10px 120px 10px 120px;
+    padding: 10px 120px 0px 120px;
 }
 .tittle-h2{
     display: block;
     position: absolute;
-    margin-left: 25px;
+    margin-left: 22px;
     top: 0;
     height: 300px;
     border-left: 3px solid rgb(37, 103, 76);
@@ -255,4 +255,116 @@ section{
     font-size: 14px;
     font-weight: 500;
     color: #fff;
+}
+
+/* 以下為行程區 */
+.bg-picture1{
+    height: 1290.1px;
+    width: 100%;
+    background-image: url(images/bgImage1.png);
+    margin-top: -1px;
+    position: relative;
+}
+.tittle1{
+    display: block;
+    border-left: 4px solid rgb(237, 187, 70);
+    padding-left: 1rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 510;
+}
+.tittle2{
+    display: block;
+    border-left: 4px solid rgb(211, 206, 106);
+    padding-left: 1rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 510;
+}
+.tittle3{
+    display: block;
+    border-left: 4px solid rgb(37, 106, 78);
+    padding-left: 1rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 510;
+}
+.margin{
+    margin-bottom: 60px;
+}
+.number>a{
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bg-picture1>.container-m{
+    position: absolute;
+    /* width: 1200px; */
+    /* background-color: rgb(145, 18, 18); */
+    height: 1290.1pxpx;
+    margin-left: 8.33333333%;
+    /* margin-top: 135px; */
+    margin-top: 133px;
+}
+
+.inner-container{
+   display: flex;
+   width: 1200px;
+   /* flex-wrap: wrap; */
+   /* background-color: rgb(90, 98, 209); */
+   justify-content: space-between;
+}
+
+/* .son{
+    
+    /* background-color: rgb(68, 167, 139); */
+    /* width: 280px; */
+    
+.number{
+    position: absolute;
+    margin-left: 50%;
+    display: block
+    
+}
+.number>a{
+    display: inline-block;
+    /* background-color: rgb(24, 130, 98); */
+}
+
+.img-container{
+    height: 279;
+    width: 280px;
+    border-radius:20px;
+    background-color: rgb(255, 255, 255);
+}
+.img-content>p{
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bg-picture2{
+    height: 1156px;
+    width: 100%;
+    background-image: url(images/bg2.png);
+}
+.bg-picture2>div>a{
+    display: block;
+}
+.footerBg{
+    height: 390px;
+    width: 100%;
+    background-image: url(images/footerBg.png);
 }
