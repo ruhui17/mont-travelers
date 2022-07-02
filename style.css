@@ -6,6 +6,14 @@
 ul, li{
     list-style: none;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+    margin: 100px 50px 150px 50px ;
+}
 
 
 
@@ -22,10 +30,6 @@ header{
 header>.container{
     margin-right: 4.16666667%;
     margin-left: 4.16666667%;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
 }
 .header-inner{
     align-items: center;
@@ -155,13 +159,14 @@ button{
     margin-left: 86.1111111%;
     margin-top: -100px;
     padding: 5px;
-    background: none;
-    border: 2px solid rgb(37, 103, 76) ;
+    background-color: rgb(68, 56, 44);
+    opacity: 0.9;
+    border: 1px solid rgb(68, 56, 44) ;
     border-radius: 4px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: #fff ;
+    color: rgb(248, 246, 239) ;
 
 }
 
@@ -265,13 +270,13 @@ button{
 
 /* 以下為行程區 */
 .bg-picture1{
-    /* height: 1290.1px; */
     width: 100%;
-    background-image: url(images/bgImage1.png);
+    background-image: url(images/bg1-1.png);
     margin-top: -1px;
     position: relative;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    padding-bottom: 100px;
 }
 .tittle1{
     display: block;
@@ -322,21 +327,19 @@ button{
     width: 95%;
     margin: auto;
     /* background-color: rgb(145, 18, 18); */
-    height: 1290.1px;
     /* margin-left: 8.33333333%; */
     /* margin-top: 135px; */
     padding-top: 133px;
 }
-.bg-picture2>.container-m{
+.bg-picture2>.container2-m{
     /* position: absolute; */
     max-width: 1200px;
     width: 95%;
     margin: auto;
     /* background-color: rgb(145, 18, 18); */
-    height: 1290.1px;
     /* margin-left: 8.33333333%; */
     /* margin-top: 135px; */
-    padding-top: 133px;
+    padding-top: 55px;
 }
 /* 
 .inner-container-margin{
@@ -398,18 +401,80 @@ button{
 .bg-picture2{
     width: 100%;
     background-image: url(images/bg2.png);
-    margin-top: -560px;
     position: relative;
     background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
 .bg-picture2>div>a{
     display: block;
 }
-.footerBg{
+
+.tittle1-margin-top{
+    margin-top: 25px;
+}
+.inner-container-margin-top{
+    margin-top: 25px;
+}
+number-margin-top{
+    margin-top: 25px;
+}
+
+/*////////// footer區 //////////*/
+
+.footer-div{
     display: block;
-    height: 390px;
-    width: 100%;
-    background-image: url(images/footerBg.png);
-    margin-top: -130px;
+}
+footer{
+    display: block;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 0;
     
+}
+.footer-container{
+    margin: auto;
+    width: 83.333333%;
+    max-width: 1200px;
+}
+.footer-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 70px;
+    
+}
+.footer-row a{
+    color: rgb(217, 217, 217);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500; 
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+dl{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* .space-between>dt>a{
+    color: rgb(217, 217, 217);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500; 
+    letter-spacing: 1px;
+    line-height: 20px;
+} */
+.text-center{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.footer-container>p{
+    color: rgb(211, 206, 106);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500; 
 }
