@@ -15,8 +15,7 @@ ul, li{
     margin: 100px 50px 150px 50px ;
 }
 
-
-
+/*//////////// header區 ////////////*/
 header{
     position: fixed;
     left: 0px;
@@ -169,17 +168,63 @@ header .nav-b>ul>li{
     margin-left: 40px; ;
 
 }
-.banner-bg{
+.banner{
+    background-image: url('images/banner1-3.png');
+    /* background-attachment: fixed; */
+    background-size:91.6666667%;
+    background-position: right;
+    padding-top: 230px;
+    background-repeat: no-repeat;
+    background-color: rgb(248, 246, 239);
+    
+}
+.banner-text{
+    width: 22.7%;
+    max-width: 240px;
+    margin: auto;
+    /* padding-top: 80px; */
+    /* padding-bottom:80px; */
+    background-color: rgba(44, 38, 30, 0.5);
+    color:rgb(255, 255, 255);
+    font-size: 14px;   
+    margin-right: 0;
+    box-sizing: border-box;
+    
+}
+.banner-text>p{
+    margin-bottom: 14px;
+    line-height: 30px;
+    
+}
+.banner-tittle{
+    padding-top: 50px;
+}
+.banner-illustrate{
+    
+}
+.btn-primary{
+    text-decoration: none;
+    color:white;
+    border: 2px solid rgb(37, 103, 76);
+    display: block;
+    padding: 5px 0px 5px 0px;
+    max-width: 80px;
+    text-align: center;
+    border-radius:4px;
+    text-shadow: none;
+    margin-left: 32.2%;
+    
+}
+/* .banner-bg{
     position: relative;
     padding-top: 150px;
     background-color: rgb(248, 246, 239);
-    /* height: 650px; */
     overflow: hidden;
     clear: both;
 
     
-}
-.banner-img{
+}*/
+/* .banner-img{
     margin-left: 8.33333333%;
     width:90%;
     float: right;
@@ -204,7 +249,7 @@ button{
     font-weight: 500;
     color: rgb(248, 246, 239) ;
 
-}
+} */
 
 .section-padding{
     display: block;
