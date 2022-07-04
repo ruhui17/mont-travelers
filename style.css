@@ -61,6 +61,13 @@ header .nav-a>ul>li{
     border-radius: 8px;
     
 }
+header .nav-a>ul>li:hover{
+    background: rgb(211, 206, 106);
+    color: #fff;
+}
+header .nav-a>ul>li:hover a{
+    color: #fff;
+}
 
 header .nav-a>ul>li>.chinese{
     vertical-align: inherit;
@@ -85,14 +92,14 @@ header .nav-a>ul>li>.nav-tag{
   .sub-menu{
     opacity: 90%;
     display: none;
-    top: 45px;
-    left: 0px;
+    top: 37px;
+    left: -13px;
     padding: 10px;
     position: absolute;
     background-color: rgb(68, 56, 44);
     width: 105%;
     border-radius: 8px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     
 }
 
@@ -102,6 +109,10 @@ header .nav-a>ul>li>.nav-tag{
     text-align: center;
     display: block;
 }
+.sub-menu>li:nth-child(3){
+    border-bottom: none;
+}
+    
 .sub-menu>li>a{
     display: inline-block;
     font-family:Arial, Helvetica, sans-serif;
@@ -176,19 +187,24 @@ header .nav-b>ul>li{
     padding-top: 230px;
     background-repeat: no-repeat;
     background-color: rgb(248, 246, 239);
+
     
 }
 .banner-text{
     width: 22.7%;
     max-width: 240px;
     margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
     /* padding-top: 80px; */
     /* padding-bottom:80px; */
     background-color: rgba(44, 38, 30, 0.5);
-    color:rgb(255, 255, 255);
+    color:rgb(248, 246, 239);
     font-size: 14px;   
     margin-right: 0;
     box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 35px;
+
     
 }
 .banner-text>p{
@@ -198,6 +214,8 @@ header .nav-b>ul>li{
 }
 .banner-tittle{
     padding-top: 50px;
+    text-align: center;
+    font-size: 16px;
 }
 .banner-illustrate{
     
@@ -205,7 +223,7 @@ header .nav-b>ul>li{
 .btn-primary{
     text-decoration: none;
     color:white;
-    border: 2px solid rgb(37, 103, 76);
+    background-color: rgb(68, 57, 45);
     display: block;
     padding: 5px 0px 5px 0px;
     max-width: 80px;
@@ -357,7 +375,7 @@ button{
     position: relative;
     background-repeat: no-repeat;
     margin-bottom: 0;
-    padding-bottom: 100px;
+    padding-bottom: 47px;
 }
 .tittle1{
     display: block;
@@ -470,6 +488,7 @@ button{
     /* width: 280px; */
     border-radius:20px;
     background-color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 .img-content>p{
     color: rgb(68, 57, 45);
@@ -478,13 +497,37 @@ button{
     font-weight: 500;
     text-align: center;
 }
+.price{
+    margin-bottom: 10px;
+}
+.img-content>h5{
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+/* .img-tittle{
+    font-size: 14px;
+} */
+
+.img-container img{
+    width: 100%;
+    transition: all .6s;
+}
+
+.img-container img:hover{
+    transform: scale(1.2);
+}
 
 .bg-picture2{
     width: 100%;
     background-image: url(images/bg2.png);
     position: relative;
     background-repeat: no-repeat;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
+    padding-top: 50px;
 }
 .bg-picture2>div>a{
     display: block;
