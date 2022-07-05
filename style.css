@@ -71,20 +71,26 @@ header{
         display: none;
     }
     .banner-text{
+        position: absolute;
+        top: 0;
+        right: 0;
         width: 22.7%;
         max-width: 240px;
+        height: 100%;
         margin: auto;
         font-family:Arial, Helvetica, sans-serif;
-        padding-top: 35px;
-        padding-bottom:50px; 
+        /* padding-top: 35px; */
+        /* padding-top: 15%; */
+        /* padding-bottom:50px;  */
         background-color: rgba(44, 38, 30, 0.5);
         color:rgb(248, 246, 239);
         font-size: 14px;   
-        margin-right: 0;
+        /* margin-left:82.8%; */
         box-sizing: border-box;
         padding-right: 30px;
         padding-left: 35px;
-    
+        line-height: 100%;
+        
         
     }
     .banner-text>p{
@@ -93,7 +99,7 @@ header{
         
     }
     .banner-tittle{
-        padding-top: 50px;
+        padding-top: 105px;
         text-align: center;
         font-size: 16px;
     }
@@ -332,10 +338,12 @@ header .nav-b>ul>li{
     /* background-attachment: fixed; */
     background-size:91.6666667%;
     background-position: right;
-    /* padding-top: 230px; */
+    /* height: 230px; */
     background-repeat: no-repeat;
     background-color: rgb(248, 246, 239);
-    margin-top: 115px;
+    margin-top: 121px;
+    padding-bottom: 41.7%;
+    position: relative;
 }
 
 .btn-primary{
