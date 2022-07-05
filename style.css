@@ -75,8 +75,8 @@ header{
         max-width: 240px;
         margin: auto;
         font-family:Arial, Helvetica, sans-serif;
-        /* padding-top: 80px; */
-        /* padding-bottom:80px; */
+        padding-top: 35px;
+        padding-bottom:50px; 
         background-color: rgba(44, 38, 30, 0.5);
         color:rgb(248, 246, 239);
         font-size: 14px;   
@@ -332,7 +332,7 @@ header .nav-b>ul>li{
     /* background-attachment: fixed; */
     background-size:91.6666667%;
     background-position: right;
-    padding-top: 230px;
+    /* padding-top: 230px; */
     background-repeat: no-repeat;
     background-color: rgb(248, 246, 239);
     margin-top: 115px;
