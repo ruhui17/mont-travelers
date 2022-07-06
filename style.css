@@ -1051,3 +1051,76 @@ dt>img{
     font-size:20px;
     font-weight: 510;
 }
+
+/*///////////////戶外指南///////////////*/
+
+.second-tittle-area{
+    width: 100%;
+    background: rgb(248, 246, 239);
+}
+.second-tittle-container{
+    margin: auto;
+    width: 83.333333%;
+    max-width: 1200px;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-pic{
+    position: relative;
+}
+.left-pic p{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.right-pic{
+    position: relative;
+}
+.right-pic p{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+
+
+.abc{
+    width: 100%;
+    background-color: rgb(248, 246, 239);
+}
+.def{
+    width: 83.333333%;
+    margin: auto;
+}
+.od{
+    display: flex;
+    flex-wrap: wrap;
+}
+.guide{
+    width: 29%;
+    margin: 2%;
+    
+}
+.xyz{
+    width: 83.333333%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gh{
+    justify-content: space-between;
+}
+.guide-content{
+    max-width: 378px;
+}
