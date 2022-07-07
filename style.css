@@ -1112,15 +1112,34 @@ dt>img{
     margin: 2%;
     
 }
+.guide-content{
+    font-display: block;
+    text-align: center;
+    color: rgb(68, 57, 45);
+    font-family:Arial, Helvetica, sans-serif;
+}
 .xyz{
     width: 83.333333%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .gh{
     justify-content: space-between;
+    max-width: 31.8315879% ;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 20px;
 }
-.guide-content{
+/* .guide-content{
     max-width: 378px;
+} */
+.pd-1{
+    padding-top: 80px;
+}
+.pd-3{
+    padding-bottom: 80px;
 }
