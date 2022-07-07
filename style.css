@@ -1204,7 +1204,9 @@ dt>img{
   .login_page{
     padding-bottom: 160px;
   }
-  
+  .lg-page{
+    padding-bottom: 300px;
+  }
   .login_page>#container1, #container2{
     margin: 50px;
     padding: 10px;
@@ -1220,6 +1222,26 @@ dt>img{
     text-align:center;  
     font-family:Arial, Helvetica, sans-serif;
     margin-top: -50px;
+  }
+  .lg-page>#container1, #container2{
+    margin: 50px;
+    padding: 10px;
+    width: 83.0555556%;
+    height: 630px;
+    background-color: rgb(234, 231, 223);
+    border-radius: 70px;
+    /* border-top: 10px solid rgb(211, 206, 106); */
+    /* box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1); */
+    position:relative;   
+    margin: auto;
+    top: 100px;
+    text-align:center;  
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+  }
+
+  .lg-page>#container1{
+    height: 800px;
   }
   
   .system_name{
