@@ -874,7 +874,7 @@ dt>img{
 .breadcrumb{
     margin: auto;
     width: 83.333333%;
-    padding: 40px 0px;
+    padding-top: 40px;
 }
 .breadcrumb-items{
     display: inline-block;
@@ -1062,7 +1062,7 @@ dt>img{
     margin: auto;
     width: 83.333333%;
     max-width: 1200px;
-    padding: 30px 0px 40px 0px;
+    padding: 30px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -1143,7 +1143,7 @@ dt>img{
     justify-content: space-between;
     max-width: 29.3052632% ;
     padding-bottom: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color: #fff;
     border-radius: 20px;
 }
