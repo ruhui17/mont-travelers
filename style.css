@@ -1115,8 +1115,21 @@ dt>img{
 .guide-content{
     font-display: block;
     text-align: center;
-    color: rgb(68, 57, 45);
+    
     font-family:Arial, Helvetica, sans-serif;
+}
+.guide-content>h4{
+    height: 30px;
+    font-size: 14px;
+    color: rgb(37, 103, 76);
+    margin-top: 10px;
+}
+.guide-content>p{
+    height: 20px;
+    font-size: 14px;
+    color: rgb(68, 57, 45);
+    padding-bottom: 20px;
+    margin: 0px 25px 0px 25px;
 }
 .xyz{
     width: 83.333333%;
@@ -1128,7 +1141,7 @@ dt>img{
 }
 .gh{
     justify-content: space-between;
-    max-width: 31.8315879% ;
+    max-width: 29.3052632% ;
     padding-bottom: 20px;
     margin-bottom: 30px;
     background-color: #fff;
