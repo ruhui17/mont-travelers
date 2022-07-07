@@ -6,6 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>加入山旅人</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .font{
+            margin-top:50px;
+            margin-bottom:50px;
+            color: rgb(37, 103, 76);
+        }
+        .account{
+            color: rgb(68, 57, 45);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 510;
+            text-align: start;
+            margin-left: 25%;
+            margin-top: 30px;
+        }
+        .forgot{
+            display: inline-block;
+            color: rgb(68, 57, 45);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            font-weight: 510;
+            border-bottom: 1px solid rgb(68, 57, 45);
+        }
+        .forget{
+            text-align: end;
+            margin-right:25%; 
+            margin-bottom: 30px;
+        }   
+        .h5{
+            display: inline-block;
+            color: rgb(68, 57, 45);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            border-bottom: 1px solid rgb(68, 57, 45);
+            margin-left: 10px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -85,6 +123,43 @@
         </div>
     </header>
     <div class="blank"></div>
+
+
+
+    <div class="system_name">
+      
+        <div class="login_page">
+          <div id="container1">
+              <div class="breadcrumb">
+                  <ul class="breadcrumb-items">
+                    <li><a href="index.html">首頁</a></li>
+                    <li>&nbsp;>&nbsp;</li>
+                    <li>Login</li>
+                  </ul>
+                </div>
+            <div class="login">  
+              
+              <h3 class="font">登入山旅人</h3>
+    
+              <form action="用戶管理.php">
+                  <p class="account"><label for="account">電子郵件帳號</label></p>
+                <input type="text" id="username" name="username" placeholder="service@mont-travelers.com.tw" required>
+                <div class="tab"></div>
+                <p class="account"><label for="account">密碼</label></p>
+                <input type="text" id="password" name="password" placeholder="password" required>
+                <p class="forget" onclick="show_hide()"><a class="forgot" href="#">忘記密碼</a></p>
+                <div class="tab"></div>
+                <input type="submit" value="登入" class="submit" onclick="location.href='https://codepen.io/rosewang0303/full/OQbLBv/'">
+              </form>  
+    
+              <a href="signup.html"><h5 class="h5" onclick="show_hide()">尚未加入山旅人嗎？立即註冊！</h5></a>
+              
+            </div><!-- login end-->
+          </div><!-- container1 end-->
+        </div><!-- login_page end-->
+
+        
+
 
 
     <footer>
