@@ -1187,18 +1187,18 @@ dt>img{
 /*///////////////登山行程頁面修改 end///////////////*/
 
 /*/////////////// login 頁面///////////////*/
-#username, #password, #fullname, #comfirm_password,#username2, #password2{
+#username, #password, #h3, #fullname, #comfirm_password,#username2, #password2{
     width: 589px;
-    height: 20px;
+    height: 30px;
     margin: 10px;
     color: rgb(68, 57, 45);
   }
-  #h3{
-    color: rgb(68, 57, 45);
+  /* #h3{
+    color: rgb(198, 144, 86);
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 16px;
-  }
+  } */
   h5{
     margin: 20px;
     color: #a3a2a3;
@@ -1237,11 +1237,14 @@ dt>img{
     background: rgb(211, 206, 106);
     color: rgb(37, 103, 76); 
     width: 200px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
     border: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 510px;
   }
   
   .submit:hover{
