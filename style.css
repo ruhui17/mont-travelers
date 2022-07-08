@@ -44,7 +44,7 @@ header{
         display: flex;
         flex-wrap: wrap;
     }
-    .header-nav{
+    #header-nav{
         gap: 25px;
         display: flex;
         flex-direction: column;
@@ -214,15 +214,19 @@ header{
     }
 
 
-    .header-nav{
+    #header-nav{
         position: absolute;
         width: 100%;
         top: 76px;
-        left: 0;
-        display: none;
+        /* display: none; */
+        background-color: rgb(167, 92, 92);
+        transition: all 0.3s;
+        left: 0px;
+        left: -100vw;
     }
-    header-nav.active {
+    .header-nav.active {
         display: block;
+        left: 0px;
     }
     header .nav-a>ul{
         padding-top:20px;

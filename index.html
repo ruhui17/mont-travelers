@@ -19,7 +19,7 @@
             <a class="icon-menu display-md-none" id="btn-nav-swtch" href="javascript:;">
                 <img src="images/hambuger2.png"  alt="" width="40px">
             </a>
-            <div class="header-nav">
+            <div id="header-nav" class="active">
                 <nav class="nav-a"> 
                     <!-- 導覽列(下) -->
                     <ul>
@@ -419,6 +419,12 @@
         </div>
     </footer>
   </div>
-
+  <script>
+    $('#btn-nav-swtch').on('click', function() {
+        $('#header-nav').toggleClass('avtive')
+    })
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="public/js/script.js"> </script>
 </body>
 </html>
